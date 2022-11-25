@@ -1,12 +1,22 @@
 import React from "react";
-import { Navbar } from "./"
-
+import { Navbar, About, Portfolio, Home } from "./";
+import {
+  createBrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 const Main = () => {
+
+
   return (
     <div id="main">
       <Navbar/>
-      Hello
-  </div>
+      <Routes>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/portfolio" element={<Portfolio/>}/>
+        <Route path="/" element={<Home/>}/>
+      </Routes>
+    </div>
   );
 };
 
