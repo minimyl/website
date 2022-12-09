@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, About, Portfolio, Home } from "./";
+import { Navbar, About, Portfolio, Home, Footer } from "./";
 import {
   createBrowserRouter,
   Routes,
@@ -16,6 +16,7 @@ const Main = () => {
         <Route path="/portfolio" element={<Portfolio/>}/>
         <Route path="/" element={<Home/>}/>
       </Routes>
+      <Footer/>
     </div>
   );
 };
