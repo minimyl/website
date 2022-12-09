@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, About, Portfolio, Home, Footer } from "./";
+import { Navbar, About, Portfolio, Contact, Home, Footer } from "./";
 import {
   createBrowserRouter,
   Routes,
@@ -14,6 +14,7 @@ const Main = () => {
       <Routes>
         <Route path="/about" element={<About/>}/>
         <Route path="/portfolio" element={<Portfolio/>}/>
+        <Route path="/contact" element={<Contact/>}/>
         <Route path="/" element={<Home/>}/>
       </Routes>
       <Footer/>

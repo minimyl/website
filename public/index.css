@@ -5,6 +5,7 @@ body {
   margin: 0;
 }
 
+/*NAVBAR CSS*/
 #navbar {
   font-family: 'Poller One', Arial, sans-serif;
   flex-grow: 1;
@@ -14,7 +15,18 @@ body {
   color: white;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
+
+.link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 400px;
+  color: white;
+}
+
+
 
 #footer {
   font-family: 'Poller One', Arial, sans-serif;
