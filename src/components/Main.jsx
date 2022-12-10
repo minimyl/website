@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, About, Portfolio, Contact, Home, Footer } from "./";
+import { Navbar, Portfolio, Contact, About, Footer } from "./";
 import {
   createBrowserRouter,
   Routes,

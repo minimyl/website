@@ -11,8 +11,8 @@ body {
   flex-grow: 1;
   max-height: 10%;
   min-height: 40px;
-  background-color: #222222;
-  color: white;
+  background-color: white;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -23,18 +23,26 @@ body {
   flex-direction: row;
   justify-content: space-around;
   width: 400px;
-  color: white;
 }
 
-.linkBar
+.linkBar {
+  color: black;
+}
+
+.footerBar {
+  color: black;
+  padding: 10px;
+}
 
 #footer {
   font-family: 'Poller One', Arial, sans-serif;
   flex-grow: 1;
   max-height: 10%;
   min-height: 40px;
-  background-color: #222222;
-  color: white;
+  background-color: white;
+  color: black;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
